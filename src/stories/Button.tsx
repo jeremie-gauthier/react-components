@@ -45,7 +45,6 @@ export const Button = ({
       style={{ backgroundColor }}
       {...props}
     >
-      <p className="text-red-600 text-xs">Test for storybook</p>
       {label}
     </button>
   );
