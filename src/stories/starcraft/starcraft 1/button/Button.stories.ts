@@ -7,6 +7,7 @@ const meta = {
   component: Button,
   parameters: {
     layout: 'centered',
+    backgrounds: { default: 'starcraft 1' },
   },
   tags: ['autodocs'],
   argTypes: {
@@ -34,6 +35,7 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     label: Typography({ text: 'See Top Players', disableGlow: true }),
+    size: 'medium',
   },
 };
 
@@ -44,6 +46,7 @@ export const Disabled: Story = {
       disableGlow: true,
       disabled: true,
     }),
+    size: 'medium',
     disabled: true,
   },
 };

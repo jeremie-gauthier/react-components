@@ -6,6 +6,7 @@ const meta = {
   component: Typography,
   parameters: {
     layout: 'centered',
+    backgrounds: { default: 'starcraft 1' },
   },
   tags: ['autodocs'],
   argTypes: {
