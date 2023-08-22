@@ -17,7 +17,7 @@ interface ProgressBarProps {
 }
 
 /**
- * Starcraft 1 typography in menus
+ * Starcraft 1 progress bar used to display your stats when the game ends
  */
 export const ProgressBar = ({ color, score, percent }: ProgressBarProps) => {
   return (
