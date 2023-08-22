@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { ProgressBar } from './ProgressBar';
 
 const meta = {
-  title: 'Starcraft/Starcraft 1/ProgressBar',
+  title: 'Starcraft 1/ProgressBar',
   component: ProgressBar,
   decorators: [
     (Story) => (

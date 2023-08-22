@@ -3,7 +3,7 @@ import { Typography } from '../typography/Typography';
 import { Button } from './Button';
 
 const meta = {
-  title: 'Starcraft/Starcraft 1/Button',
+  title: 'Starcraft 1/Button',
   component: Button,
   parameters: {
     layout: 'centered',
